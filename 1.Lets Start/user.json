@@ -1,0 +1,21 @@
+[
+    {
+      "username": "john_doe",
+      "email": "john.doe@example.com",
+      "contactNumber": 1234567890,
+      "role": "Developer"
+    },
+    {
+      "username": "jane_smith",
+      "email": "jane.smith@example.com",
+      "contactNumber": 9876543210,
+      "role": "Teacher"
+    },
+    {
+      "username": "sam_brown",
+      "email": "sam.brown@example.com",
+      "contactNumber": 5555555555,
+      "role": "Student"
+    }
+  ]
+  
