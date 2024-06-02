@@ -6,7 +6,9 @@ URL ="mongodb+srv://sahilgupta:WoeY3wqEQ2R9na6Q@dumpdata.jkmz7iw.mongodb.net/"
 start =async ()=>{
     try{
         await connectDB(URL);
+        await User.deleteMany();
         await User.create(dataJson)
+    
         console.log("Data inserted successfully")
         
     }
